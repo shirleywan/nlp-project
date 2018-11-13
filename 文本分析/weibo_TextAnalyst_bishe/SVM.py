@@ -3,6 +3,8 @@ import os
 import numpy as np
 import random as rnd
 filepath = os.path.dirname(os.path.abspath(__file__))
+    # os.path.dirname：去掉文件名，返回目录
+    # os.path.abspath：获得文件当前路径
 
 class SVM():
     """

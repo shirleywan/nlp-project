@@ -1,4 +1,5 @@
 import pynlpir
+    #pynlpir 另外一种分词包
 import re
 pynlpir.open()
 

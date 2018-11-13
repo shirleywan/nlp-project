@@ -1,5 +1,5 @@
 import pymysql
-
+# python连接mysql
 connection = pymysql.connect(host="123.206.28.24", user="root", passwd="root", db="weibo", port=3306,
                              charset="utf8")
 cur = connection.cursor()

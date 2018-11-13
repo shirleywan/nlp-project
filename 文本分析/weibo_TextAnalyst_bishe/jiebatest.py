@@ -11,5 +11,6 @@ line='能拿奖品这种事一定要和大家说一说的，否则以后还怎�
 #         s = s.replace(i, '')  # 一个一个的删除
 # seg_list = jieba.cut(str（s).replace(' ', ''))  # 默认是精确模式
 stop = [line.strip() for line in open('ad/stop.txt', 'r', encoding='utf-8').readlines()]  # 停用词
+    # 停用词都是一个词一行的
 print(list(set(jieba.cut(line)) - set(stop)))
 print(list(jieba.cut(line)))

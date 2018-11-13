@@ -1,5 +1,5 @@
 # SVM 准确率
-
+# 作图的脚本
 from pylab import mpl
 import matplotlib.pyplot as plt
 
